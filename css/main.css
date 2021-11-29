@@ -212,6 +212,7 @@ body {
   line-height: 1.5;
   font-family: 'Raleway', 'Open Sans', serif;
   background-color: #1B2330;
+  color: #fff;
 }
 
 /* raleway-regular - latin */
@@ -258,5 +259,11 @@ body {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
