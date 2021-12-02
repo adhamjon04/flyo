@@ -215,6 +215,25 @@ body {
   color: #fff;
 }
 
+.blue__btn {
+  display: block;
+  padding: 16px;
+  background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+          box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 24px;
+  text-decoration: none;
+  color: #fff;
+  max-width: 240px;
+  width: 100%;
+  -webkit-transform: 0.2s ease;
+          transform: 0.2s ease;
+}
+
+.blue__btn:hover {
+  background-image: linear-gradient(152deg, #1fa3db -150%, #197972 170%);
+}
+
 /* raleway-regular - latin */
 @font-face {
   font-family: 'Raleway';
@@ -263,6 +282,7 @@ body {
 
 .site-header {
   margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 .header__container {
@@ -292,8 +312,10 @@ body {
 @media only screen and (min-width: 768px) {
   .site-header {
     margin-top: 72px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
-  .header__list-link {
+  .header __list-link {
     margin-left: 57px;
     font-size: 16px;
     line-height: 19px;
@@ -309,6 +331,67 @@ body {
   .logo__img {
     width: auto;
     height: auto;
+  }
+}
+
+.hero__container {
+  text-align: center;
+}
+
+.hero__img {
+  margin-bottom: 33px;
+  width: 304px;
+  height: 225px;
+}
+
+.hero__item {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+.hero__text {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 32px;
+}
+
+.hero__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero__container {
+    margin-top: 75px;
+  }
+  .hero__img {
+    margin-bottom: 36px;
+    width: auto;
+    height: auto;
+  }
+  .hero__item {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    max-width: 734px;
+  }
+  .hero__text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 589px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero__btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */

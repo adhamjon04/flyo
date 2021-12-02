@@ -1,5 +1,6 @@
     .site-header {
         margin-top: 24px;
+        margin-bottom: 48px;
     }
     
     .header {
@@ -23,9 +24,10 @@
     @media only screen and (min-width: 768px) {
         .site-header {
             margin-top: 72px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
-        .header 
-        &__list {
+        .header &__list {
             &-link {
                 margin-left: 57px;
                 font-size: 16px;
