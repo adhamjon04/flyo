@@ -444,6 +444,18 @@ body {
   margin-bottom: 80px;
 }
 
+.service:nth-child(2)::before {
+  background-image: url(../img/icon-security.png);
+}
+
+.service:nth-child(3)::before {
+  background-image: url(../img/icon-collaboration.png);
+}
+
+.service:nth-child(4)::before {
+  background-image: url(../img/icon-file-type.png);
+}
+
 @media only screen and (min-width: 768px) {
   .services__list {
     -webkit-box-pack: justify;
